@@ -22,3 +22,4 @@ If you find a bug or any misinformation then please reach out to me and I will c
 
 * Making large API's from scratch, thinking about the long term consiquences, shape, and usability of the data I was piecing together. Only data that would be used made it's wau into the project.
 * Presenting large amounts of data into readable tables.
+* Introducing search functions into the pages displaying the data to allow users to find information they are looking for
