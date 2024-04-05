@@ -9,14 +9,15 @@ This project originally started as a way for me to expand my knowledge in React 
 * Install Node onto your machine.
 * Clone this repository.
 * Navigate into the repository folder via your Termainal or IDE Terminal.
-* To start the Project use the command: 'npm start' then go to  http://localhost:3000/ in your browser.
+* Install the dependancies using the command: ***npm i***
+* To start the Project use the command: ***npm start*** then go to  ***http://localhost:3000/*** in your browser *Should automatically open the browers and direct itself*.
 * The project is now showing! 
 
 
 # Report a Bug or Misinformation
 
 If you find a bug or any misinformation then please reach out to me and I will correct as soon as possible.
-* All files are included in the project and will be complete over time.
+* All files are included in the project and will be complete over time. I planned a structure and flow to help myself stay on track for an MVP on the project.
 
 # What have I learned during this?
 
