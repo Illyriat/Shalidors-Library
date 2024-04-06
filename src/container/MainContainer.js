@@ -21,6 +21,7 @@ import PvP from '../components/pages/Pvp.js';
 
 import Crafting101 from '../components/pages/crafting/Crafting101.js'
 import Motifs from '../components/pages/crafting/Motifs.js';
+import Styles from '../components/pages/crafting/Styles.js';
 import Alchemy from '../components/pages/crafting/Alchemy.js';
 import Enchantment from '../components/pages/crafting/Enchantment.js';
 
@@ -67,6 +68,7 @@ function MainContainer() {
 
                 <Route path='crafting-101' element={<Crafting101 />} />
                 <Route path='motifs' element={<Motifs />} />
+                <Route path='styles' element={<Styles />} />
                 <Route path='alchemy' element={<Alchemy />} />
                 <Route path='enchantment' element={<Enchantment />} />
 
