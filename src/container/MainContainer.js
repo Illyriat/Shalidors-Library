@@ -41,7 +41,7 @@ import ZealsZenuthar from '../components/pages/events/ZealsZenuthar.js';
 
 import Addons from '../components/pages/Addons.js';
 import Contact from '../components/pages/Contact.js';
-import Donate from '../components/pages/Donate.js';
+import MusicBoxes from '../components/pages/MusicBoxes.js';
 
 import ErrorPage from '../components/pages/ErrorPage.js';
 
@@ -88,7 +88,7 @@ function MainContainer() {
 
                 <Route path='eso-addons' element={<Addons />} />
                 <Route path='contact' element={<Contact />} />
-                <Route path='donate' element={<Donate />} />
+                <Route path='musicboxes' element={<MusicBoxes />} />
 
                 <Route path='*' element={<ErrorPage />} />
             </Routes>

@@ -1512,6 +1512,20 @@ export const motifData = [
         quality: "Purple"
     },
     {
+        id: 109,
+        styleName: "Flame Awoken Style",
+        motifName: "Crafting Motif 109: Flame Awoken Style",
+        location: "Unobtainable.",
+        material: [
+            {
+                materialType: "N/A",
+                lootLocation: "N/A"
+            }
+        ],
+        skillLevel: "N/A",
+        quality: "N/A"
+    },
+    {
         id: 110,
         styleName: "Dreadsails Style",
         motifName: "Crafting Motif 110: Dreadsails Style",
@@ -1749,5 +1763,4 @@ export const motifData = [
     //     skillLevel: "Metalworking, Tailoring or Woodworking level:",
     //     quality: ""
     // },
-       
 ]

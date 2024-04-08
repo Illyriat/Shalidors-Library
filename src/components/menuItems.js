@@ -444,6 +444,10 @@ export const menuItems = [
       url: 'housing'
     },
     {
+      title: 'Music Boxes',
+      url: 'musicboxes'
+    },
+    {
       title: 'Events',
       submenu: [
         {
@@ -487,9 +491,5 @@ export const menuItems = [
     {
       title: 'Contact',
       url: 'contact'
-    },
-    {
-      title: 'Donate',
-      url: 'donate'
     }
   ];

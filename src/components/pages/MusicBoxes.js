@@ -1,11 +1,11 @@
 import React from "react";
 
-function Donate() {
+function MusicBoxes() {
     return(
         <div>
-            Donate
+            Music Boxes!
         </div>
     )
 }
 
-export default Donate;
+export default MusicBoxes;
