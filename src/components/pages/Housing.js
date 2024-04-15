@@ -1,8 +1,13 @@
+import React, {useState} from 'react'
+import HousingCardList from './housing/component/HousingCardList';
+import './housing/component/housing.css'
+
+import { housingData } from '../data/housingData';
+
 function Housing() {
+    const [cards, setCards] = useState(housingData)
     return(
-        <div>
-            Housing Info
-        </div>
+        <HousingCardList housingcards={cards} />
     )
 }
 

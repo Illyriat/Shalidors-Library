@@ -3,11 +3,12 @@
 // pages.
 // There are 7 housing categories that these can be placed into
 
-export const innRooms = [
+export const housingData = [
 
     // Inn Rooms x 10
     {
         id: 1,
+        img: "images/48px-The_Ebony_Flask_Inn_Room.png",
         homeName: "The Ebony Flask Inn Room	",
         zoneLocation: "Stonefalls",
         cityLocation: "Ebonheart ",
@@ -22,6 +23,7 @@ export const innRooms = [
     },
     {
         id: 2,
+        img: "images/48px-Mara's_kiss_Inn_room.png",
         homeName: "Mara's Kiss Inn Room",
         zoneLocation: "Auridon",
         cityLocation: "Vulkhel Guard",
@@ -36,6 +38,7 @@ export const innRooms = [
     },
     {
         id: 3,
+        img: "images/48px-The_Rosy_Lion_(room).png",
         homeName: "The Rosy Lion",
         zoneLocation: "Glenumbra",
         cityLocation: "Daggerfall ",
@@ -50,6 +53,7 @@ export const innRooms = [
     },
     {
         id: 4,
+        img: "images/48px-Saint_Delyn_Penthouse.png",
         homeName: "Saint Delyn Penthouse",
         zoneLocation: "Vvardenfell",
         cityLocation: "Vivec City",
@@ -64,6 +68,7 @@ export const innRooms = [
     },
     {
         id: 5,
+        img: "images/48px-Golden_Gryphon_Garret.png",
         homeName: "Golden Gryphon Garret",
         zoneLocation: "Summerset",
         cityLocation: "Alinor",
@@ -78,6 +83,7 @@ export const innRooms = [
     },
     {
         id: 6,
+        img: "images/48px-Sugar_Bowl_Suite.png",
         homeName: "Sugar Bowl Suite",
         zoneLocation: "Rimmen",
         cityLocation: "Northern Elsweyr",
@@ -92,6 +98,7 @@ export const innRooms = [
     },
     {
         id: 7,
+        img: "images/48px-Snowmelt_Suite.png",
         homeName: "Snowmelt Suite",
         zoneLocation: "Western Skyrim",
         cityLocation: "Solitude",
@@ -106,6 +113,7 @@ export const innRooms = [
     },
     {
         id: 8,
+        img: "images/48px-Pilgrim's_Rest.png",
         homeName: "Pilgrim's Rest",
         zoneLocation: "Blackwood",
         cityLocation: "Leyawiin",
@@ -120,6 +128,7 @@ export const innRooms = [
     },
     {
         id: 9,
+        img: "images/48px-Ancient_Anchor_Berth.png",
         homeName: "Ancient Anchor Berth",
         zoneLocation: "High Isle",
         cityLocation: "Gonfalon Bay",
@@ -134,6 +143,7 @@ export const innRooms = [
     },
     {
         id: 10,
+        img: "images/48px-Journey's_End_Lodgings.png",
         homeName: "Journey's End Lodgings",
         zoneLocation: "Telvanni Peninsula",
         cityLocation: "Necrom",
@@ -146,13 +156,12 @@ export const innRooms = [
         crownCost: "N/A",
         playerCapacity: "2",
     },
-]
 
 
-export const apparentments = [
     // Apartments x 3
     {
-        id: 1,
+        id: 11,
+        img: "images/Barbed_Hook_Private_Room.png",
         homeName: "Barbed Hook Private Room",
         zoneLocation: "Auridon",
         cityLocation: "Skywatch",
@@ -166,7 +175,8 @@ export const apparentments = [
         playerCapacity: "6",
     },
     {
-        id: 2,
+        id: 12,
+        img: "images/Flaming_Nix_Deluxe_Garret.png",
         homeName: "Flaming Nix Deluxe Garret",
         zoneLocation: "Deshaan",
         cityLocation: "Mournhold",
@@ -180,7 +190,8 @@ export const apparentments = [
         playerCapacity: "6",
     },
     {
-        id: 3,
+        id: 13,
+        img: "images/Sisters_of_the_Sands_Apartment.png",
         homeName: "Sisters of the Sands Apartment",
         zoneLocation: "Alik'r Desert",
         cityLocation: "Sentinel",
@@ -193,100 +204,210 @@ export const apparentments = [
         crownCost: "640",
         playerCapacity: "6",
     },
-]
 
+//     // Small Houses x 10
+//     {
+//         id: 14,
+//         homeName: "Autumn's-Gate",
+//         zoneLocation: "The Rift",
+//         cityLocation: "North of Nimalten",
+//         homeType: "Small Home",
+//         furnishingSize: "100 / 200",
+//         specialFurnishing: "2 / 4",
+//         collectableFurnishing: "5 / 10",
+//         specialCollectables: "2 / 4",
+//         goldCost: "60.000",
+//         crownCost: "2.350",
+//         playerCapacity: "6",
+//     },
+//     {
+//         id: 15,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id:16,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 17,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id:18,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 19,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 20,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 21,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 22,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
+//     {
+//         id: 23,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
 
-export const smallHomes = [
-    // Small Houses x 10
-    {
-        id: 1,
-        homeName: "",
-        zoneLocation: "",
-        cityLocation: "",
-        homeType: "",
-        furnishingSize: "",
-        specialFurnishing: "",
-        collectableFurnishing: "",
-        specialCollectables: "",
-        goldCost: "",
-        crownCost: "",
-        playerCapacity: "",
-    },
-]
+//     // Medium Houses x 12
+//     {
+//         id: 1,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
 
+//     // Large Houses x 16
+//     {
+//         id: 1,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
 
+//     // Manors x 7
+//     {
+//         id: 1,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
 
-export const mediumHomes = [
-    // Medium Houses x 12
-    {
-        id: 1,
-        homeName: "",
-        zoneLocation: "",
-        cityLocation: "",
-        homeType: "",
-        furnishingSize: "",
-        specialFurnishing: "",
-        collectableFurnishing: "",
-        specialCollectables: "",
-        goldCost: "",
-        crownCost: "",
-        playerCapacity: "",
-    },
-]
-
-
-export const largeHomes = [
-    // Large Houses x 16
-    {
-        id: 1,
-        homeName: "",
-        zoneLocation: "",
-        cityLocation: "",
-        homeType: "",
-        furnishingSize: "",
-        specialFurnishing: "",
-        collectableFurnishing: "",
-        specialCollectables: "",
-        goldCost: "",
-        crownCost: "",
-        playerCapacity: "",
-    },
-]
-
-
-export const manorHomes = [
-    // Manors x 7
-    {
-        id: 1,
-        homeName: "",
-        zoneLocation: "",
-        cityLocation: "",
-        homeType: "",
-        furnishingSize: "",
-        specialFurnishing: "",
-        collectableFurnishing: "",
-        specialCollectables: "",
-        goldCost: "",
-        crownCost: "",
-        playerCapacity: "",
-    },
-]
-
-
-export const crownStoreHomes = [
-    // Crown Store Homes x 41
-    {
-        id: 1,
-        homeName: "",
-        zoneLocation: "",
-        cityLocation: "",
-        homeType: "",
-        furnishingSize: "",
-        specialFurnishing: "",
-        collectableFurnishing: "",
-        specialCollectables: "",
-        goldCost: "",
-        crownCost: "",
-        playerCapacity: "",
-    },
+//     // Crown Store Homes x 41
+//     {
+//         id: 1,
+//         homeName: "",
+//         zoneLocation: "",
+//         cityLocation: "",
+//         homeType: "",
+//         furnishingSize: "",
+//         specialFurnishing: "",
+//         collectableFurnishing: "",
+//         specialCollectables: "",
+//         goldCost: "",
+//         crownCost: "",
+//         playerCapacity: "",
+//     },
 ]
