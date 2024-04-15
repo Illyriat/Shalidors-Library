@@ -28,12 +28,13 @@ function HousingCard({ housingcard }) {
                     <p>Special Collectables: {housingcard.specialCollectables}</p>
                     <p>Gold: {housingcard.goldCost}</p>
                     <p>Crowns: {housingcard.crownCost}</p>
-                    <p>Player Population {housingcard.playerCapacity}</p>
+                    <p>Player Population: {housingcard.playerCapacity}</p>
                 </div>
             ) : (
                 <div className='front'>
                     <p>{housingcard.homeName}</p>
-                    <img src={`${process.env.PUBLIC_URL}/${housingcard.img}`} alt={housingcard.homeName} />                </div>
+                    <img src={`${process.env.PUBLIC_URL}/${housingcard.img}`} alt={housingcard.homeName} />                
+                </div>
             )}
         </div>
     );
