@@ -1,5 +1,7 @@
 # Shalidors Library
 
+[![My Skills](https://skillicons.dev/icons?i=js,react,html,css)](https://skillicons.dev)
+
 A project inspired by The Elder Scrolls online to display guides to players looking for the information they need.
 This project originally started as a way for me to expand my knowledge in React with an engaging subject. After a certain point I decided to share this into my GitHub repository as it will show over time how I challenge features and updates over a period of time, and introducing new Librarys to shape how the project looks.
 
