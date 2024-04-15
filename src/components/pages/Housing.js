@@ -19,7 +19,7 @@ function Housing() {
 
     return(
         <div>
-            <section className=''>
+            <section className='card-grid'>
                 <input
                     type="text"
                     placeholder="Search Houses"
