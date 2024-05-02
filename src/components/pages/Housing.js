@@ -5,7 +5,7 @@ import './housing/component/housing.css'
 import { housingData } from '../data/housingData';
 
 function Housing() {
-    const [cards, setCards] = useState(housingData)
+    // const [cards, setCards] = useState(housingData)
 
     const [query, setQuery] = useState("");
     const keys = ["homeName", "zoneLocation", "homeType"]
