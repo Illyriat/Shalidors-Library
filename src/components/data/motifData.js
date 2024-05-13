@@ -1728,8 +1728,8 @@ export const motifData = [
         location: "A possible drop from Aradros the Awakened in Oathsworn Pit on Normal or Veteran mode, with a guaranteed drop in Veteran Hard Mode.",
         material: [
             {
-                materialType: "",
-                lootLocation: ""
+                materialType: "Wildburn Withers",
+                lootLocation: "Obtained by defeating Bosses in Oathsworn Pit."
             }
         ],
         skillLevel: "Metalworking, Tailoring or Woodworking level:",
@@ -1742,8 +1742,8 @@ export const motifData = [
         location: "A possible drop from the Blind in Bedlam Veil on Normal or Veteran mode, with a guaranteed drop in Veteran Hard Mode.",
         material: [
             {
-                materialType: "",
-                lootLocation: ""
+                materialType: "Splinters of Mirrormoor",
+                lootLocation: "Obtained by defeating Bosses in Bedlam Veil."
             }
         ],
         skillLevel: "Metalworking, Tailoring or Woodworking level:",
